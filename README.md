@@ -14,8 +14,6 @@ Claude Code と Codex の個人設定（Skillと、全リポジトリ共通の�
 ./install.sh <skill名> [<skill名>...]
 ```
 
-貸与PCでは `~/.claude/CLAUDE.md` などの設定ファイルを書き換えない。`--home` を付けない限り `home/` は反映されない。組織が同じ用途のSkillを配布している場合（例: technical-writing）は、そのSkillを指定せず組織の版を使う。
-
 反映先は次のとおり。いずれもsymlinkを張る。
 
 | リポジトリ | 反映先 | 反映する条件 |
