@@ -4,7 +4,7 @@
 #
 #   ./install.sh                     全Skillを反映する（home/ は反映しない）
 #   ./install.sh technical-writing   指定したSkillだけ反映する
-#   ./install.sh --home              Skillに加えて home/ も反映する（自分のマシン用）
+#   ./install.sh --home              Skillに加えて home/ も反映する
 #   ./install.sh --copy              symlinkの代わりにコピーする
 #   ./install.sh --dry-run           実行せずに、何をするかだけ表示する
 #

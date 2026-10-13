@@ -1,16 +1,14 @@
-# skill-platform
+# agent-dotfiles
 
 Claude Code と Codex の個人設定（Skillと、全リポジトリ共通の指示ファイル）を管理するリポジトリ。ここが原本で、`install.sh` でホームディレクトリからsymlinkを張る。設定を直すときは、このリポジトリのファイルを編集すればよい。
 
 ## 反映する
 
-使うマシンによって反映する範囲を変える。
-
 ```sh
-# 自分のMac: 全Skillと home/ の設定ファイル
+# 全Skillと home/ の設定ファイル
 ./install.sh --home
 
-# 貸与PC: 入れたいSkillだけ。home/ は反映しない
+# 指定したSkillだけ
 ./install.sh <skill名> [<skill名>...]
 ```
 
